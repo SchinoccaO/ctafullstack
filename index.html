@@ -14,8 +14,8 @@
     <header>
         <nav class="nav">
             <a class="nav-link" href="./index.html">Home</a>
-            <a class="nav-link" href="./pages/productos.html">Productos</a>
             <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+            <a class="nav-link" href="./pages/servicios.html">Servicios</a>
             <a class="nav-link" href="./pages/contacto.html">Contacto</a>
         </nav>
         <!-- ENCABEZADO -->
@@ -23,14 +23,15 @@
     <main>
         <!-- cuerpo principal de la aplicacion -->
         <section class="p-2"> <!-- definimos una seccion de la pagina -->
-            <h1>Productos para la casa. </h1>
+            <h1>Centro de Tratamientos Avanzados</h1>
             <article>
-                <h2>Dperatamaentois</h2>
 
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur ducimus tenetur cupiditate
-                    voluptatibus neque,
-                    odit maiores quas omnis dignissimos excepturi cum repellat tempore incidunt illo accusantium
-                    consequatur unde quae laboriosam!
+                <p>Somos un Equipo Médico Especializado en tratamientos Avanzados con especial foco en 
+                    el Paciente y el Financiador. 
+                    Basado en un innovador proceso de Gobernanza Clínica que 
+                    jerarquiza al paciente y se ajusta a buenas prácticas logrando un beneficio compartido.
+
+
                 </p>
                 <p>Lorem ipsum,dolor sit amet consectetur adipisicing elit. Saepe autem laudantium laboriosam omnis
                     suscipit numquam reprehenderit quae,
@@ -60,9 +61,10 @@
         <section class="p-2">
             <h1>Automotores.</h1>
             <article>
+                <!--Ruta relativa: dentro del texto yo hago un <a href='pagina del formulario'#formregistro. ID del formulario de contacto. Redirijo hacia contacto dentro del parafo. -->
                 <h1>Fiat</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, laudantium aliquid.
-                    Pariatur ad ex molestias voluptate accusantium eum, cumque sit minus? Nesciunt itaque tenetur
+                    Pariatur ad ex molestias voluptate accusantium <a href="./pages/contacto.html#formregistro">Completa el formulario </a>eum, cumque sit minus? Nesciunt itaque tenetur
                     aperiam adipisci omnis architecto eos repellendus?
                 </p>
                 <h1>Ford</h1>
@@ -94,8 +96,11 @@
             </ul>
         </section>
     </main>
-    <footer>
+    <footer id="piedepagina">
         <!-- pie de página -->
+        <address>
+            San Martin 1200 - Córdoba - Argentina
+        </address>
     </footer>
 </body>
 </html>
