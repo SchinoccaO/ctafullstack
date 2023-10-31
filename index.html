@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +11,7 @@
 <body>
     <!--esto de aca es una pagina en blanco -->
     <header>
-        <nav class="nav">
+        <nav class="nav p-2">
             <a class="nav-link" href="./index.html">Home</a>
             <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
             <a class="nav-link" href="./pages/servicios.html">Servicios</a>
@@ -32,67 +31,59 @@
                     jerarquiza al paciente y se ajusta a buenas prácticas logrando un beneficio compartido.
 
 
+        <section class="container"> <!-- definimos una seccion de la pagina -->
+            <h1>Productos para la casa</h1>
+            <article>
+                <h2>Departamentos</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur ducimus tenetur cupiditatevoluptatibus neque,odit maiores quas omnis dignissimos excepturi cum repellat tempore incidunt illo accusantiumconsequatur unde quae laboriosam!
                 </p>
-                <p>Lorem ipsum,dolor sit amet consectetur adipisicing elit. Saepe autem laudantium laboriosam omnis
-                    suscipit numquam reprehenderit quae,
-                    facilis velit quam voluptates, commodi alias! Necessitatibus qui earum consequuntur. Dolorum,
-                    corrupti totam.
+                <p>Lorem ipsum,dolor sit amet consectetur adipisicing elit. Saepe autem laudantium laboriosam omnissuscipit numquam reprehenderit quae,facilis velit quam voluptates, commodi alias! Necessitatibus qui earum consequuntur. Dolorum,corrupti totam.
                 </p>
             </article>
             <article>
-                <h1>Dormitorios </h1>
-                
+                <h2>Dormitorios </h2>
                 <!-- p*2 me hace 2 parrafos de una, asi mismo con demás cosas -->
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos exercitationem sapiente obcaecati
-                    dolorem
-                    quibusdam porro enim autem in adipisci consequuntur debitis facilis provident, molestiae dolores
-                    placeat nisi pariatur laborum cumque!
-                </p>
-                <h1>Muebles</h1>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Quos exercitationem sapiente obcaecati dolorem quibusdam porro enim autem in adipisci consequuntur
-                    debitis facilis provident, molestiae dolores placeat nisi pariatur laborum cumque!
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos exercitationem sapiente obcaecati doloremquibusdam porro enim autem in adipisci consequuntur debitis facilis provident, molestiae dolores placeat nisi pariatur laborum cumque!</p>
+                <h2>Muebles</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.Quos exercitationem sapiente obcaecati dolorem quibusdam porro enim autem in adipisci consequuntur debitis facilis provident, molestiae dolores placeat nisi pariatur laborum cumque!
                 </p>
             </article>
 
         </section>
-        <section class="p-2">
-            <h1>Automotores.</h1>
+        <section class="container">
+            <h2>Automotores</h2>
             <article>
                 <!--Ruta relativa: dentro del texto yo hago un <a href='pagina del formulario'#formregistro. ID del formulario de contacto. Redirijo hacia contacto dentro del parafo. -->
                 <h1>Fiat</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, laudantium aliquid.
                     Pariatur ad ex molestias voluptate accusantium <a href="./pages/contacto.html#formregistro">Completa el formulario </a>eum, cumque sit minus? Nesciunt itaque tenetur
                     aperiam adipisci omnis architecto eos repellendus?
+                <h3>Fiat</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, laudantium aliquid.Pariatur ad ex molestias voluptate accusantium eum, cumque sit minus? Nesciunt itaque teneturaperiam adipisci omnis architecto eos repellendus?
                 </p>
-                <h1>Ford</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quis, laudantium aliquid. Pariatur ad ex molestias voluptate accusantium eum, cumque sit minus?
-                    Nesciunt itaque tenetur aperiam adipisci omnis architecto eos repellendus?
+                <h3>Ford</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Quis, laudantium aliquid. Pariatur ad ex molestias voluptate accusantium eum, cumque sit minus?Nesciunt itaque tenetur aperiam adipisci omnis architecto eos repellendus?
                 </p>
             </article>
-
         </section>
-        <section class="p-2">
-            <h1>Listas ordenadas. </h1>
+        <section class="container">
+            <h2>Listas ordenadas. </h2>
             <!-- orden list -->
-            <ol>
+            <ol class="list-group">
                 <!-- creo item listas  con li*4 -->
-                <li>Arroz</li>
-                <li>Arroz</li>
-                <li>Arroz</li>
-                <li>Arroz</li>
+                <li class="list-group-item list-group-item-action">Arroz</li>
+                <li class="list-group-item list-group-item-action">Banana</li>
+                <li class="list-group-item list-group-item-action">Jamon</li>
+                <li class="list-group-item list-group-item-action">Arroz</li>
             </ol>
         </section>
-        <section class="p-2">
-            <h1>Listas desordenadas</h1>
-            <ul>
-                <li>Arroz</li>
-                <li>aRROZ</li>
-                <li>aRROZ</li>
-                <li>aRROZ</li>
+        <section class="container">
+            <h2>Listas desordenadas</h2>
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-action">Arroz</li>
+                <li class="list-group-item list-group-item-action">Banana</li>
+                <li class="list-group-item list-group-item-action">Jamon</li>
+                <li class="list-group-item list-group-item-action">Arroz</li>
             </ul>
         </section>
     </main>
@@ -101,6 +92,7 @@
         <address>
             San Martin 1200 - Córdoba - Argentina
         </address>
+    <footer class="p-2">
     </footer>
 </body>
 </html>
