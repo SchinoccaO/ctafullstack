@@ -1,0 +1,12 @@
+/* 1. Seleccionamos sleector de etiquetas: 
+ de taq (a todo el contenido del boy le dare ste estilo*/
+
+body{
+    font-family:'Courier New', Courier, monospace, sans-serif
+}
+
+h1{
+    color: rgb(26, 204, 26);
+}
+
+/* 2. Seleccion por clase*/ 
