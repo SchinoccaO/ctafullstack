@@ -5,8 +5,19 @@ body{
     font-family:'Courier New', Courier, monospace, sans-serif
 }
 
-h1{
+h2{
     color: rgb(26, 204, 26);
 }
 
+main{
+    background-color: green;
+}
 /* 2. Seleccion por clase*/ 
+
+.tituliAmarillo{
+    color: yellow;
+}
+.tipografiaNueva{
+
+
+}

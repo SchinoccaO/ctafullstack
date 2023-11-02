@@ -1,0 +1,84 @@
+/* reseteo de css*/
+
+/* implioca tpdas ñas estiquetas */
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color:#9C89CD;
+}
+
+div{
+    border: solid 1px black;
+
+    width: 550px;
+    padding: 40px;
+    margin: 40px;
+    text-align: center;
+
+    /* float: right;*/
+}
+
+.padre{
+    display: flex;
+    flex-direction: column;
+    /* por default: por columna es una abajo del otro, no hace falta ponerlo si lo quierio asi */
+    flex-direction: column-reverse;
+    flex-direction: row-reverse;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-direction: right;
+    justify-content: center; /*justifca los contenidos en el centro, SIEMRPE apuntando al padre*/
+}
+    /*wrap: pegar un salto cuando tengas una caracteristica especifica, no enrta otro obj a tu derecha. 
+
+
+/*flex: primer section, crea uyna fila*/
+
+
+
+li{
+    list-style: none;
+    border: solid 1px black;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+button{
+    padding: 15px;
+    margin-top: 10px;
+}
+
+/*creo una clase generica*/
+.sinDeco{
+    text-decoration: none;
+}
+
+
+/*hovver pasar el mouse por el elemento*/
+button:hover{
+    background-color: green;
+    color: white
+}
+
+button a{
+    text-decoration: none;
+    color: pink;
+}
+
+h3, h4{
+    margin: 15px;
+}
