@@ -1,62 +1,59 @@
-/* reseteo de css*/
-
-/* implioca tpdas ñas estiquetas */
-
-header{
-    background-color: white ;
-}
-
-.nav-link{
-    background-color:#002849 !important;
-    color: white;
-}
-.nav.nav.p-2{
-    background-color: #002849;
-}
-.nav-link:hover{
-    color:hsl(172, 100%, 79%);
-}
-
-h1{
-    font-size: 40px;
-}
-h2{
-    font-size: 25px;
-
-}
-
-*{
+* reseteo de css */
+* {
     margin: 0;
     padding: 0;
-    
+    box-sizing: border-box;
 }
 
-body{
-    background-color:#9C89CD;
+body {
+    font-family: Arial, sans-serif;
 }
 
-div{
-    border: solid 1px black;
-    inline-size: 350px;
-    
-    text-align: center;
-
-    /* float: right;*/
+header {
+    background-color: white;
 }
 
-.padre{
+
+.nav-link {
+    background-color: #002849 !important;
+    color: white;
+}
+
+.nav.nav.p-2 {
+    background-color: #002849;
+}
+
+.nav-link:hover {
+    color: hsl(172, 100%, 79%);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+/* Estilos para las secciones */
+main {
     display: flex;
-    /* por default: por columna es una abajo del otro, no hace falta ponerlo si lo quierio asi */
-    justify-content: center; /*justifca los contenidos en el centro, SIEMRPE apuntando al padre*/
+    justify-content: center; /* Alinea el contenido al centro del contenedor principal */
+    align-items: flex-start; /* Ajusta la alineación vertical al inicio para que los elementos estén uno al lado del otro */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan si no caben en el ancho de la pantalla */
 }
-    /*wrap: pegar un salto cuando tengas una caracteristica especifica, no enrta otro obj a tu derecha. 
 
+section {
+    border: solid 1px black;
+    width: 300px;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box; /* Ajusta el modelo de caja para incluir el padding en el tamaño total */
+}
 
-/*flex: primer section, crea uyna fila*/
-
-
-
-li{
+/* Ajustes para los elementos de lista y el botón */
+li {
     list-style: none;
     border: solid 1px black;
     padding: 10px;
@@ -64,36 +61,33 @@ li{
     margin-bottom: 20px;
 }
 
-
-ul{
+ul {
     display: flex;
-    justify-content: space-between;
-    justify-content: space-between;
-    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan si no caben en el ancho de la pantalla */
 }
 
-button{
+button {
     padding: 15px;
     margin-top: 12px;
 }
 
-/*creo una clase generica*/
-.sinDeco{
+/* Creo una clase genérica */
+.sinDeco {
     text-decoration: none;
 }
 
-
-/*hovver pasar el mouse por el elemento*/
-button:hover{
+/* Hover: pasar el mouse por el elemento */
+button:hover {
     background-color: green;
-    color: white
+    color: white;
 }
 
-button a{
+button a {
     text-decoration: none;
     color: pink;
 }
 
-h3, h4{
+h3, h4 {
     margin: 12px;
 }

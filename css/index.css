@@ -16,15 +16,10 @@ header{
 }
 
 
-h1{
+h2{
+    font-size: 25px;
     
 }
-
-
-h2{
-    color: rgb(26, 204, 26);
-}
-
 
 /* 2. Seleccion por clase*/ 
 
