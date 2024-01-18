@@ -18,6 +18,14 @@ header{
 
 h2{
     font-size: 25px;
+    margin-top: 5px;
+    margin-right: 100px;
+    margin-bottom: 12px;
+    margin-left: 15px;
+    font-display: 10px;
+    overflow: hidden; /* Evita que el h2 se extienda más allá de la imagen */
+
+    
     
 }
 
@@ -32,6 +40,17 @@ h2{
     color: pink;
 }
 
-/*Seleccion de id* TOCAMOS UN ELEMENTO POR UNICA VEZ. /
-#parrafoAzul{
-    color: blue;
+#manoindex img {
+    display: flex;
+}
+
+#manoindex img {
+    width: 55%;
+    margin-bottom: 12px;
+    margin-left: 800px;
+}
+
+#manoindex article {
+    flex: 1;
+    margin-left: 20px;
+}
