@@ -1,3 +1,6 @@
+html{
+    background: url('https://cta.com.ar/assets/img/cover_contacto.png')
+}
 header{
     background-color: white ;
 }
@@ -12,7 +15,45 @@ header{
 .nav-link:hover{
     color:hsl(172, 100%, 79%);
 }
+.container{
+    margin:40px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container .info{
+    width: 45%;
+}
+.info h2{
+    font-size: 60px;
+}
+.info p{
+    font-size: 20px;
+    width: 80%;
+}
 
-h1{
-    
+.container form{
+    padding: 30px;
+}
+footer{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #002849;
+}
+footer div{
+    display: flex;
+    justify-content: space-around;
+}
+footer .item{
+    display: flex;
+    flex-direction: column;
+}
+.item p {
+    color: #fff;
+}
+address{
+    color: #fff;
+    text-align: center;
 }
