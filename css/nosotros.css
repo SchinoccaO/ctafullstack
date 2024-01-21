@@ -12,5 +12,57 @@ header{
 .nav-link:hover{
     color:hsl(172, 100%, 79%);
 }
+.inicio{
+    display: flex;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+}
+h2{
+    font-weight: 800;
+    color: #002849;
+}
+img{
+    width: 50%;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.card{
+    display: flex;
+    width: 40%;
+    padding: 25px;
+    flex-direction: column;
+    background-color: #002849;
+}
+.card h3,.card p{
+    color: #fff;
+}
 
-
+footer{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #002849;
+}
+footer div{
+    display: flex;
+    justify-content: space-around;
+}
+footer .item{
+    display: flex;
+    flex-direction: column;
+}
+.item p {
+    color: #fff;
+}
+address{
+    color: #fff;
+    text-align: center;
+}

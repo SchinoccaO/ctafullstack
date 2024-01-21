@@ -28,11 +28,13 @@ header {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 50px;
+    padding: 20px;
 }
 
-h2 {
-    font-size: 25px;
+.sub{
+    color: rgb(87, 87, 87);
+    font-size: 20px;
 }
 
 /* Estilos para las secciones */
@@ -41,16 +43,7 @@ main {
     justify-content: center; /* Alinea el contenido al centro del contenedor principal */
     align-items: flex-start; /* Ajusta la alineación vertical al inicio para que los elementos estén uno al lado del otro */
     flex-wrap: wrap; /* Permite que los elementos se envuelvan si no caben en el ancho de la pantalla */
-}
-
-section {
-    border: solid 1px black;
-    width: 300px;
-    text-align: center;
-    margin: 10px;
-    padding: 20px;
-    box-sizing: border-box; /* Ajusta el modelo de caja para incluir el padding en el tamaño total */
-}
+}   
 
 /* Ajustes para los elementos de lista y el botón */
 li {
@@ -63,6 +56,7 @@ li {
 
 ul {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     flex-wrap: wrap; /* Permite que los elementos se envuelvan si no caben en el ancho de la pantalla */
 }
@@ -70,6 +64,7 @@ ul {
 button {
     padding: 15px;
     margin-top: 12px;
+    width: max-content;
 }
 
 /* Creo una clase genérica */
@@ -78,7 +73,7 @@ button {
 }
 
 /* Hover: pasar el mouse por el elemento */
-button:hover {
+/* button:hover {
     background-color: green;
     color: white;
 }
@@ -86,10 +81,73 @@ button:hover {
 button a {
     text-decoration: none;
     color: pink;
-}
+} */
 
 h3, h4 {
     margin: 12px;
 }
 
-/* prueba para subir repositorio
+.product-container{
+    display: flex;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 31%;
+    max-width: 33%;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.card:nth-child(2){
+    border: 1px solid #0dcaf0;
+    transition: .3s;
+}
+.card:hover{
+    border: 1px solid green;
+}
+.card:hover > button{
+    background-color:green;
+    border: 1px solid green;
+}
+.card h4{
+    font-size: 28px;
+}
+button a{
+    text-decoration: none;
+    color: #fff;
+}
+td{
+
+    text-align: center;
+}
+i{
+    color: green;
+}
+footer{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #002849;
+}
+footer div{
+    display: flex;
+    justify-content: space-around;
+}
+footer .item{
+    display: flex;
+    flex-direction: column;
+}
+.item p {
+    color: #fff;
+}
+address{
+    color: #fff;
+    text-align: center;
+}
+
+/* prueba para subir repositorio* /
+

@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Servicios disponibles</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-{valor de integridad}" crossorigin="anonymous">
 
     <link rel="stylesheet" href="../css/servicios.css">
 </head>
@@ -18,77 +19,163 @@
         <a class="nav-link" href="./contacto.html">Contacto</a>
     </nav>
 
-<body>
-   
-    <div class="container p-2">
-        <h1 style="text-align: center;">Afiliación</h1>
-        <h2 style="text-align: center;">Se parte de nuestra comunidad que cuenta con servicios de salud las 24 horas por los 365 dias del año, 
-            desde cualquier parte dónde tengamos cobertura médica y profesionales a disposición.
+    <body>
 
-         </h2>
-
-
-<main class="product-container">
-    <!--contenedor padre para ordenar elementos, dandole una clase. apuntamos en el css-->
-
-    <!--
-        Contenedor padre: flexbox, parar ordenar, debe apuntar al SECTION. 
-    -->
-    <section>
-
-        <div>
-            
-            <h3> Básico </h3>
-            <h4>$2.5000 ARS/mo</h4>
-            <p>
-                Consultas Online
-                200 MB de almacenamiento
-                Atención 24/7
-                Carpeta Médica
+        <div class="container p-2">
+            <h1 style="text-align: center;">Afiliación</h1>
+            <p style="text-align: center;" class="sub" >
+                Se parte de nuestra comunidad que cuenta con servicios de salud las 24 horas
+                por los 365 dias del año,
+                desde cualquier parte dónde tengamos cobertura médica y profesionales a disposición.
             </p>
-            <button type="button"
-            <a href="./detallesprod.html"> Cotizar </a>
+            <main class="product-container">
+                <!--contenedor padre para ordenar elementos, dandole una clase. apuntamos en el css-->
+                <!--Contenedor padre: flexbox, parar ordenar, debe apuntar al SECTION. -->
+                <div class="card">
+                    <h3> Básico </h3>
+                    <h4>$2.5000 ARS/mo</h4>
+                    <ul>
+                        <il>Consultas Online</il>
+                        <il>200 MB de almacenamiento</il>
+                        <il>Atención 24/7</il>
+                        <il>Carpeta Médica</il>
+                    </ul>
+                    <button type="button" class="btn btn-primary">
+                        <a href="./detallesprod.html">Cotizar</a>
+                    </button>
+                </div>
+                <div class="card">
+                    <h3> Pro </h3>
+                    <h4>$2.5000 ARS/mo</h4>
+                    <ul>
+                       <il> Tratamientos en Casa</il> 
+                       <il> 1 GB Almacenamiento</il> 
+                       <il> Prioridad en atención</il> 
+                       <il> Descuentos especiales</il>
+                    </ul>
+                    <button type="button" class="btn btn-info">
+                        <a href="./detallesprod.html">Cotizar</a>
+                    </button>
+                </div>
+                <div class="card">
+                    <h3> Premium </h3>
+                    <h4>$2.5000 ARS/mo</h4>
+                    <ul>
+                        <il>Todo lo anterior</il>
+                        <il>5 GB de almacenamiento </il>
+                        <il>Traslados especiales</il>
+                        <il>Mucho más...</il>
+                    </ul>
+                    <button type="button" class="btn btn-primary">
+                        <a href="./detallesprod.html">Cotizar</a>
+                    </button>
+                </div>
+            </main>
+            <section class="servicios">
+                <h2>Servicios</h2>
+                <table class="table table-bordered table-sm">
+                    <thead>
+                      <tr>
+                        <th scope="col"></th>
+                        <th scope="col">Basico</th>
+                        <th scope="col">Pro</th>
+                        <th scope="col">Premium</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Atencion 24/7</th>
+                        <td><i class="fas fa-check-circle"></i></td>
+                        <td><i class="fas fa-check-circle"></i></td>
+                        <td><i class="fas fa-check-circle"></i></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Consultas Online</th>
+                        <td><i class="fas fa-check-circle"></i></td>
+                        <td><i class="fas fa-check-circle"></i></td>
+                        <td><i class="fas fa-check-circle"></i></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Resultados Digitales</th>
+                        <td><i class="fas fa-check-circle"></i></td>
+                        <td><i class="fas fa-check-circle"></i></td>
+                        <td><i class="fas fa-check-circle"></i></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Recetas Digitales</th>
+                        <td></td>
+                        <td><i class="fas fa-check-circle"></i></td>
+                        <td><i class="fas fa-check-circle"></i></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Servicio de Traslado</th>
+                        <td></td>
+                        <td><i class="fas fa-check-circle"></i></td>
+                        <td><i class="fas fa-check-circle"></i></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Servicio de Enfermeria</th>
+                        <td></td>
+                        <td><i class="fas fa-check-circle"></i></td>
+                        <td><i class="fas fa-check-circle"></i></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Internacion Domiciliaria</th>
+                        <td></td>
+                        <td></td>
+                        <td><i class="fas fa-check-circle"></i></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">internacion Extrahospitalaria</th>
+                        <td></td>
+                        <td></td>
+                        <td><i class="fas fa-check-circle"></i></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Protocolo COVID</th>
+                        <td></td>
+                        <td></td>
+                        <td><i class="fas fa-check-circle"></i></td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </section>
         </div>
-    </section>
-    <section>
-        <div>
-            <h3> Intermedio </h3>
-            <h4>$2.5000 ARS/mo</h4>
-            <p>
-                Consultas Online
-                200 MB de almacenamiento
-                Atención 24/7
-                Carpeta Médica
-            </p>
-            <button type="button"
-            <a href="./detallesprod.html"> Cotizar </a>
-        </div>
-    </section>
-    <section>
-        <div>
-            <h3> Básico </h3>
-            <h4>$2.5000 ARS/mo</h4>
-            <p>
-                Consultas Online
-                200 MB de almacenamiento
-                Atención 24/7
-                Carpeta Médica
-            </p>
-            <button type="button"
-            <a href="./detallesprod.html"> Cotizar </a>
-        </div>
-    </section>
-</main>
-
-<footer>
-    <address>
-        San Martin 200 
-    </address>
-</footer>
+            <footer class="footer">
+                <!-- pie de página -->
+                <div>
+                    <div class="item">
+                        <p>Menú</p>
+                        <p>Home</p>
+                        <p>Nosotros</p>
+                        <p>Servicios</p>
+                        <p>Contacto</p>
+                    </div>
+                    <div class="item">            
+                        <p>Telemedicina</p> 
+                        <p>Consultas</p> 
+                        <p>Asistencia Médica</p>  
+                        <p>Enfermería</p> 
+                        <p>Traslados</p> 
+                    </div>
+                    <div class="item">
+                        <p>CTA Online</p>
+                        <p>Ingresar</p> 
+                        <p>Registrarse</p> 
+                        <p>Precio</p> 
+                        <p>FAQs</p> 
+                        <p>Suscribíte a nuestro Newsletter</p>  
+                    </div>
+                </div>
+                <br>
+                <address>
+                    San Martin 1200 - Córdoba - Argentina
+                </address>
+            </footer>
 
 
 
 
-</body>
+    </body>
 
 </html>
