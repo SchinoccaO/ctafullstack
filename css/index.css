@@ -1,56 +1,147 @@
 /* 1. Seleccionamos sleector de etiquetas: 
  de taq (a todo el contenido del boy le dare este estilo*/
-header{
-    background-color: white ;
+ .inicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
 }
 
-.nav-link{
-    background-color:#002849 !important;
-    color: white;
-}
-.nav.nav.p-2{
-    background-color: #002849;
-}
-.nav-link:hover{
-    color:hsl(172, 100%, 79%);
-}
-
-
-h2{
-    font-size: 25px;
+.inicio::before {
+    width: 100%;
+    background: url("../assets/images/Acuerdo-con-google-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: .5;
+    z-index: -1; /* Coloca el pseudo-elemento detrás del contenido */
+  }
+article p{
+    font-size: 20px;
     margin-top: 5px;
     margin-right: 100px;
     margin-bottom: 12px;
     margin-left: 15px;
     font-display: 10px;
-    overflow: hidden; /* Evita que el h2 se extienda más allá de la imagen */
-
-    
-    
+    overflow: hidden;
+    width: 60%;
+    /* Evita que el h2 se extienda más allá de la imagen */
+}
+.btn{
+    width: max-content;
+}
+ h1{
+    font-weight: 700;
+    font-size: 45px;
+ }
+header {
+    background-color: white;
 }
 
-/* 2. Seleccion por clase*/ 
+.nav-link {
+    background-color: #002849 !important;
+    color: white;
+}
 
-.tituliAmarillo{
+.nav.nav.p-2 {
+    background-color: #002849;
+}
+
+.nav-link:hover {
+    color: hsl(172, 100%, 79%);
+}
+
+/* 2. Seleccion por clase*/
+
+.tituliAmarillo {
     color: yellow;
 }
 
 /*aca pongo el nombre de la etiqueta y el estilo. Se puede reutilizar la clase, en un parrafo por ej */
-.fiatAmarillo{
+.fiatAmarillo {
     color: pink;
 }
 
-#manoindex img {
+#manoindex{
+    width: 100%;
     display: flex;
+    align-items: center;
+    justify-content: right;
 }
 
 #manoindex img {
-    width: 55%;
-    margin-bottom: 12px;
-    margin-left: 800px;
+    width: 50%;
 }
 
 #manoindex article {
     flex: 1;
     margin-left: 20px;
+}
+.cards-servicios{
+    display: flex;
+    justify-content: space-between;
+}
+.cards-servicios .card{
+    width: 20%;
+    padding: 10px;
+}
+.cards-servicios .card h3,p{
+    margin: 5px;
+    color: #002849;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    height: max-content;
+}
+.banner .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+.banner img{
+    width: 30%;
+}
+.banner:nth-child(5){
+    flex-direction: row-reverse;
+}
+.anuncios{
+    margin-top: 20px;
+    padding: 20px;
+    max-width: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #002849;
+}
+footer div{
+    display: flex;
+    justify-content: space-around;
+}
+footer .item{
+    display: flex;
+    flex-direction: column;
+}
+.item p {
+    color: #fff;
+}
+address{
+    color: #fff;
+    text-align: center;
 }
