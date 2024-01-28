@@ -1,0 +1,40 @@
+.info h2{
+    font-size: 60px;
+    justify-content: center;
+}
+.info p{
+    font-size: 20px;
+    width: 80%;
+}
+.nav-link {
+    background-color: #002849 !important;
+    color: white;
+}
+.nav.nav.p-2 {
+    background-color: #002849;
+}
+.Registrarse{
+    text-align: center;
+}
+footer{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #002849;
+}
+footer div{
+    display: flex;
+    justify-content: space-around;
+}
+footer .item{
+    display: flex;
+    flex-direction: column;
+}
+.item p {
+    color: #fff;
+}
+address{
+    color: #fff;
+    text-align: center;
+}
